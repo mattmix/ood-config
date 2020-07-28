@@ -1,0 +1,4 @@
+title: Echo Jupyter
+cluster: echo
+attributes:
+  bc_queue: null
