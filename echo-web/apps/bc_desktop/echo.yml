@@ -1,0 +1,4 @@
+title: Echo Desktop
+cluster: echo
+attributes:
+  bc_queue: null
