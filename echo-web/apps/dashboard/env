@@ -1,0 +1,2 @@
+MOTD_PATH='/etc/ood/config/apps/dashboard/motd'
+MOTD_FORMAT='markdown'
