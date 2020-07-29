@@ -1,4 +1,24 @@
 title: Echo Desktop
 cluster: echo
+submit: submit/slurm.yml.erb
 attributes:
   bc_queue: null
+  desktop:
+    widget: select
+    label: "Desktop environment"
+    options:
+      - ["Mate", "mate"]
+      - ["Xfce", "xfce"]
+  bc_num_slots:
+    label: Number of cores
+    help: Max 4 cores
+    widget: number_field
+    min: 1
+    max: 4
+  bc_num_hours:
+    help: Max 8 hours
+    widget: number_field
+    max: 8
+  bc_account:
+    help: Optional account to charge, will charge default account if blank.
+
